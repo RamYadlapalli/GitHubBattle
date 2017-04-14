@@ -1,0 +1,67 @@
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.langs{
+    display: flex;
+    justify-content: center;
+    li{
+        margin:10px;
+        font-weight: bold;
+        cursor: pointer;
+        
+    }
+}
+ul{
+    padding:0;
+    li{
+        list-style-type: none;
+        display: inline;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin:10px;
+    }
+}
+.popularItem{
+    margin:20px;
+}
+.popularList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.repoBox{
+    width:200px;
+    height: 200px;
+    border-radius: 50;
+}
+
+.repoCont{
+    width:300px;
+}
+.active{
+
+    font-weight: bold;
+}
+    .nav li{
+        margin-right:15px;
+    }
+
+    .row,.column{
+        display: flex;
+        justify-content: center;
+    }
+    .column{
+        display: inline-block;
+        margin:20px;
+        width:300px;
+        height:300px;
+    }
+    .playerResult{
+        display: inline-block;
+        width: 500px;
+        height:500px;
+    }
+    .avatar{
+        width:200px;
+    }
